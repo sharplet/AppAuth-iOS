@@ -10,6 +10,7 @@ let package = Package(
   targets: [
     .target(
       name: "AppAuth",
+      publicHeadersPath: "include",
       cSettings: [.headerSearchPath("include/AppAuth")]
     ),
   ]
